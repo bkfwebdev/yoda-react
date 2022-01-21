@@ -1,3 +1,33 @@
+This app uses REACT/Redux
+
+Index.js 
+Loads App.Js in sets up state store
+
+App.js 
+imports navbar and is the root of all routes
+
+ItemList.js 
+is a generic component that gets reused for listing items
+
+NavBar.js 
+is self explanatory
+
+Person.js
+Hits the starwars API and creates a person component with that data
+
+PersonList.js
+uses the Itemlist component to vreate a list of Persons
+
+Planet.js is similar to Person.js, PlanetList.js is similar to PersonList.js
+
+Routes.js controls views for Planets, Films, and People
+
+Sublist.js is a generic component to render a sublist under a list item
+
+Store.js is the root level state store
+
+___________________________________________________________________________________________________
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
